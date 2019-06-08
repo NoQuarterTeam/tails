@@ -10,30 +10,67 @@ CLI for generating TypeGraphQL + TypeORM backend code
 [![License](https://img.shields.io/npm/l/tails.svg)](https://github.com/NoQuarterTeam/tails/blob/master/package.json)
 
 <!-- toc -->
-
-- [Usage](#usage)
-- [Commands](#commands)
-  <!-- tocstop -->
+* [tails](#tails)
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
 
 # Usage
 
 <!-- usage -->
-
 ```sh-session
 $ npm install -g tails
-
 $ tails COMMAND
 running command...
-
 $ tails (-v|--version|version)
-tails/0.0.0 darwin-x64 node-v12.1.0
+tails/0.1.0 darwin-x64 node-v12.1.0
+$ tails --help [COMMAND]
+USAGE
+  $ tails COMMAND
+...
 ```
-
 <!-- usagestop -->
 
 # Commands
 
 <!-- commands -->
+* [`tails help [COMMAND]`](#tails-help-command)
+* [`tails scaffold`](#tails-scaffold)
+
+## `tails help [COMMAND]`
+
+display help for tails
+
+```
+USAGE
+  $ tails help [COMMAND]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
+```
+
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.0/src/commands/help.ts)_
+
+## `tails scaffold`
+
+Generates TypeGraphQL + TypeOrm backend code
+
+```
+USAGE
+  $ tails scaffold
+
+OPTIONS
+  -h, --help  show CLI help
+
+EXAMPLE
+  $ tails scaffold
+```
+
+_See code: [src/commands/scaffold/index.ts](https://github.com/NoQuarterTeam/tails/blob/v0.1.0/src/commands/scaffold/index.ts)_
+<!-- commandsstop -->
 
 ## `tails scaffold`
 
