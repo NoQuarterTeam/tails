@@ -3,10 +3,10 @@
 CLI for generating TypeGraphQL + TypeORM backend code
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/tails.svg)](https://npmjs.org/package/tails)
+[![Version](https://img.shields.io/npm/v/tails-cli.svg)](https://npmjs.org/package/tails-cli)
 [![CircleCI](https://circleci.com/gh/NoQuarterTeam/tails/tree/master.svg?style=shield)](https://circleci.com/gh/NoQuarterTeam/tails/tree/master)
 [![Codecov](https://codecov.io/gh/NoQuarterTeam/tails/branch/master/graph/badge.svg)](https://codecov.io/gh/NoQuarterTeam/tails)
-[![Downloads/week](https://img.shields.io/npm/dw/tails.svg)](https://npmjs.org/package/tails)
+[![Downloads/week](https://img.shields.io/npm/dw/tails-cli.svg)](https://npmjs.org/package/tails-cli)
 [![License](https://img.shields.io/npm/l/tails.svg)](https://github.com/NoQuarterTeam/tails/blob/master/package.json)
 
 <!-- toc -->
@@ -21,7 +21,7 @@ CLI for generating TypeGraphQL + TypeORM backend code
 <!-- usage -->
 
 ```sh-session
-$ npm install -g tails
+$ npm install -g tails-cli
 $ tails COMMAND
 running command...
 $ tails (-v|--version|version)
