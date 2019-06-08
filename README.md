@@ -21,7 +21,7 @@ CLI for generating TypeGraphQL + TypeORM backend code
 <!-- usage -->
 
 ```sh-session
-$ npm install -g tails-cli
+$ yarn global add tails-cli
 $ tails COMMAND
 running command...
 $ tails (-v|--version|version)
