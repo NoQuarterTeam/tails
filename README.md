@@ -21,14 +21,12 @@ CLI for generating TypeGraphQL + TypeORM backend code
 
 ```sh-session
 $ npm install -g tails
+
 $ tails COMMAND
 running command...
+
 $ tails (-v|--version|version)
 tails/0.0.0 darwin-x64 node-v12.1.0
-$ tails --help [COMMAND]
-USAGE
-  $ tails COMMAND
-...
 ```
 
 <!-- usagestop -->
@@ -39,16 +37,25 @@ USAGE
 
 ## `tails scaffold`
 
+If `user` supplied is to first prompt, it will generate these files in src/modules
+
+```
+modules/
+  user.entity.ts
+  user.resolver.ts
+  user.service.ts
+  user.repository.ts
+  inputs/
+    createUser.input.ts
+    updateUser.input.ts
+```
+
+It provides basic CRUD actions broken up into organized services.
+
+If `firstName:string lastName:string` is supplied to the second prompt, these fields will be added to the entity and input files along with their types.
+
 ```
 USAGE
-  $ tails scaffold
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
   $ tails scaffold
 ```
 

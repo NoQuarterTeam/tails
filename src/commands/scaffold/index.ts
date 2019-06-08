@@ -1,5 +1,6 @@
 import { Command, flags } from "@oclif/command"
 import * as inquirer from "inquirer"
+import { sleep, capitalize } from "@noquarter/utils"
 import Listr from "listr"
 
 import { EntityTemplate } from "../../templates/entity"
@@ -7,11 +8,11 @@ import { FileUtils } from "../../utils/FileUtils"
 import { ResolverTemplate } from "../../templates/resolver"
 import { ServiceTemplate } from "../../templates/service"
 import { RepositoryTemplate } from "../../templates/repository"
-import { sleep, capitalize } from "@noquarter/utils"
 import { CreateInputTemplate } from "../../templates/inputs/createInput"
+import { UpdateInputTemplate } from "../../templates/inputs/updateInput"
 
 export default class Scaffold extends Command {
-  static description = "Generates a Type-GraphQL resource"
+  static description = "Generates TypeGraphQL + TypeOrm backend code"
 
   static examples = [`$ tails scaffold`]
 
@@ -57,11 +58,11 @@ export default class Scaffold extends Command {
           new Listr([
             {
               title: `Create${capitalize(resource)}Input`,
-              task: () => this.createCreateInput(resource),
+              task: () => this.createCreateInput(resource, fields),
             },
             {
               title: `Update${capitalize(resource)}Input`,
-              task: () => this.createUpdateInput(resource),
+              task: () => this.createUpdateInput(resource, fields),
             },
           ]),
       },
@@ -93,21 +94,21 @@ export default class Scaffold extends Command {
     FileUtils.createFile(filePath, content)
   }
 
-  async createCreateInput(resource: string) {
+  async createCreateInput(resource: string, fields?: string) {
     await sleep(100)
     const createFileName = `create${capitalize(resource)}.input.ts`
     const createFilePath =
       process.cwd() + "/src/modules/" + resource + "/inputs/" + createFileName
-    const createContent = CreateInputTemplate(resource)
+    const createContent = CreateInputTemplate(resource, fields)
     FileUtils.createFile(createFilePath, createContent)
   }
 
-  async createUpdateInput(resource: string) {
+  async createUpdateInput(resource: string, fields?: string) {
     await sleep(100)
     const updateFileName = `update${capitalize(resource)}.input.ts`
     const updateFilePath =
       process.cwd() + "/src/modules/" + resource + "/inputs/" + updateFileName
-    const updateContent = CreateInputTemplate(resource)
+    const updateContent = UpdateInputTemplate(resource, fields)
     FileUtils.createFile(updateFilePath, updateContent)
   }
 
