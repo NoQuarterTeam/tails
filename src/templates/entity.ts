@@ -8,7 +8,7 @@ export const EntityTemplate = (name: string, fields?: string) => {
       .map(field => field.split(":"))
       .map(f => ({ name: f[0], type: f[1] }))
 
-  return `import { Entity, @Column, BaseEntity } from "typeorm"
+  return `import { Entity, Column, BaseEntity } from "typeorm"
 import { ObjectType, Field } from "type-graphql"
 
 @ObjectType()

@@ -6,8 +6,10 @@ export const ResolverTemplate = (name: string) => {
   const pluralName = pluralize(name)
   const pluralCapitalName = pluralize(capitalName)
   return `import { Resolver, Query, Mutation, Arg } from "type-graphql"
+  
 import { ${capitalName} } from "./${name}.entity"
-
+import { Create${capitalName}Input } from "./inputs/create${capitalName}.input"
+import { Update${capitalName}Input } from "./inputs/update${capitalName}.input"
 import { ${capitalName}Service } from "./${name}.service"
 import { ${capitalName}Repository } from "./${name}.repository"
 

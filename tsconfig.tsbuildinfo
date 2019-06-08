@@ -658,7 +658,7 @@
         "signature": "4fdd598c4bc833ac0f1c1d968a4e6762f49b51d0aa6abcaf7a5324eabb695b0b"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/entity.ts": {
-        "version": "3091ea5b4a9940614b9e56401a348ccbef850be5bb8bab4a964bd11401fa04d7",
+        "version": "63e813a6762ecda726e13aef70cc408f64f3d16cb498c4e65b963ee2c4c286bd",
         "signature": "22b1ea2e2625e68210e0d399e7f38f4815d7157e38b61267e0c33f76a2368850"
       },
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/mkdirp/index.d.ts": {
@@ -674,7 +674,7 @@
         "signature": "8f7a2387ecc680872d09a6edbca1612d699f77ee5a5129944935c3798a613d04"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts": {
-        "version": "1e5ded27a57bc242373e36241e0e527cb5e311d22488e8f4281d422699185352",
+        "version": "38d4d58bec3e19c57703994f2cca284da3e560e7f1b63b5f70262b0aa807f333",
         "signature": "173fecea48087e34d8f08af424f4180c0e35b3e8f2cebf17ecb94957d249566c"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts": {
@@ -2918,16 +2918,16 @@
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/inquirer/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@noquarter/utils/dist/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/listr/index.d.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/entity.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/mkdirp/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/src/utils/fileutils.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/pluralize/index.d.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts"
+      "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/entity.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts"
     ]
   },
   "version": "3.5.1"
