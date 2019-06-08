@@ -37,7 +37,7 @@ tails/0.0.0 darwin-x64 node-v12.1.0
 
 ## `tails scaffold`
 
-If `user` supplied is to first prompt, it will generate these files in src/modules
+If `user` is supplied to the first prompt, it will generate these files in src/modules
 
 ```
 modules/
