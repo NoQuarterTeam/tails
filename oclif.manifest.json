@@ -1,1 +1,0 @@
-{"version":"0.2.4","commands":{"scaffold":{"id":"scaffold","description":"Generates TypeGraphQL + TypeOrm backend code","pluginName":"tails-cli","pluginType":"core","aliases":[],"examples":["$ tails scaffold"],"flags":{"help":{"name":"help","type":"boolean","char":"h","description":"show CLI help","allowNo":false}},"args":[]}}}
