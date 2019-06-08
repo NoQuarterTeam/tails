@@ -1,5 +1,5 @@
 {
-  "name": "tails",
+  "name": "tails-cli",
   "description": "CLI for generating TypeGraphQL + TypeORM backend code",
   "version": "0.1.1",
   "author": "No Quarter",
