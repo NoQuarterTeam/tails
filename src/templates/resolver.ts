@@ -41,10 +41,9 @@ export class ${capitalName}Resolver {
     return ${name}
   }
 
-  @Mutation(() => ${capitalName})
-  async destroy${capitalName}(@Arg("${name}Id") ${name}Id: string): Promise<${capitalName}> {
-    const ${name} = await this.${name}Service.destroy(${name}Id)
-    return ${name}
+  @Mutation(() => Boolean)
+  destroy${capitalName}(@Arg("${name}Id") ${name}Id: string): Promise<boolean> {
+    return this.${name}Service.destroy(${name}Id)
   }
 
 }

@@ -13,40 +13,22 @@ import { ${capitalName}Repository } from "./${name}.repository"
 export class ${capitalName}Service {
   constructor(private readonly ${name}Repository: ${capitalName}Repository) {}
 
-  create(data: Create${capitalName}Input): Promise<${capitalName}> {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const ${name} = await ${capitalName}.create(data).save()
-        resolve(${name})
-      } catch (error) {
-        reject(error)
-      }
-    })
+  async create(data: Create${capitalName}Input): Promise<${capitalName}> {
+    const ${name} = await ${capitalName}.create(data).save()
+    return ${name}
   }
 
-  update(${name}Id: string, data: Update${capitalName}Input): Promise<${capitalName}> {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const ${name} = await this.${name}Repository.findById(${name}Id)
-        Object.assign(${name}, data)
-        await ${name}.save()
-        resolve(${name})
-      } catch (error) {
-        reject(error)
-      }
-    })
+  async update(${name}Id: string, data: Update${capitalName}Input): Promise<${capitalName}> {
+    const ${name} = await this.${name}Repository.findById(${name}Id)
+    Object.assign(${name}, data)
+    await ${name}.save()
+    return ${name}
   }
 
-  destroy(${name}Id: string): Promise<${capitalName}> {
-    return new Promise(async (resolve, reject) => {
-      try {
-        const ${name} = await this.${name}Repository.findById(${name}Id)
-        await ${name}.remove()
-        resolve(${name})
-      } catch (error) {
-        reject(error)
-      }
-    })
+  async destroy(${name}Id: string): Promise<boolean> {
+    const ${name} = await this.${name}Repository.findById(${name}Id)
+    await ${name}.remove()
+    return true
   }
 }
 `
