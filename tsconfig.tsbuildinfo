@@ -674,11 +674,11 @@
         "signature": "8f7a2387ecc680872d09a6edbca1612d699f77ee5a5129944935c3798a613d04"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts": {
-        "version": "38d4d58bec3e19c57703994f2cca284da3e560e7f1b63b5f70262b0aa807f333",
+        "version": "318c798c4503443a26e579d128821b1989bcca98bb99624deb8515612d932c35",
         "signature": "173fecea48087e34d8f08af424f4180c0e35b3e8f2cebf17ecb94957d249566c"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts": {
-        "version": "20bfe1b2a5caad9785283d6da03a562627b0fd2e5e9724a3e9d24cfa4e806392",
+        "version": "11469d7978aaac8d71af58a2c7dd27f17d2d19db0844e6e2d9bcfd7bfb9448ae",
         "signature": "b56a786ee44d757fc4f28ae0a2a4afa74dee5d45c15c8f589e187a76a7ab7d12"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts": {
@@ -2918,16 +2918,16 @@
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/inquirer/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@noquarter/utils/dist/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/listr/index.d.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/entity.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/mkdirp/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/src/utils/fileutils.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/pluralize/index.d.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts",
       "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/entity.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts"
+      "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts"
     ]
   },
   "version": "3.5.1"

@@ -8,8 +8,8 @@ export const ResolverTemplate = (name: string) => {
   return `import { Resolver, Query, Mutation, Arg } from "type-graphql"
   
 import { ${capitalName} } from "./${name}.entity"
-import { Create${capitalName}Input } from "./inputs/create${capitalName}.input"
-import { Update${capitalName}Input } from "./inputs/update${capitalName}.input"
+import { Create${capitalName}Input } from "./input/create${capitalName}.input"
+import { Update${capitalName}Input } from "./input/update${capitalName}.input"
 import { ${capitalName}Service } from "./${name}.service"
 import { ${capitalName}Repository } from "./${name}.repository"
 

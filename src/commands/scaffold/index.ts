@@ -8,8 +8,8 @@ import { FileUtils } from "../../utils/FileUtils"
 import { ResolverTemplate } from "../../templates/resolver"
 import { ServiceTemplate } from "../../templates/service"
 import { RepositoryTemplate } from "../../templates/repository"
-import { CreateInputTemplate } from "../../templates/inputs/createInput"
-import { UpdateInputTemplate } from "../../templates/inputs/updateInput"
+import { CreateInputTemplate } from "../../templates/input/createInput"
+import { UpdateInputTemplate } from "../../templates/input/updateInput"
 
 export default class Scaffold extends Command {
   static description = "Generates TypeGraphQL + TypeOrm backend code"
@@ -98,7 +98,7 @@ export default class Scaffold extends Command {
     await sleep(100)
     const createFileName = `create${capitalize(resource)}.input.ts`
     const createFilePath =
-      process.cwd() + "/src/modules/" + resource + "/inputs/" + createFileName
+      process.cwd() + "/src/modules/" + resource + "/input/" + createFileName
     const createContent = CreateInputTemplate(resource, fields)
     FileUtils.createFile(createFilePath, createContent)
   }
@@ -107,7 +107,7 @@ export default class Scaffold extends Command {
     await sleep(100)
     const updateFileName = `update${capitalize(resource)}.input.ts`
     const updateFilePath =
-      process.cwd() + "/src/modules/" + resource + "/inputs/" + updateFileName
+      process.cwd() + "/src/modules/" + resource + "/input/" + updateFileName
     const updateContent = UpdateInputTemplate(resource, fields)
     FileUtils.createFile(updateFilePath, updateContent)
   }

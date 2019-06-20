@@ -5,8 +5,8 @@ export const ServiceTemplate = (name: string) => {
   return `import { Service } from "typedi"
 
 import { ${capitalName} } from "./${name}.entity"
-import { Create${capitalName}Input } from "./inputs/create${capitalName}.input"
-import { Update${capitalName}Input } from "./inputs/update${capitalName}.input"
+import { Create${capitalName}Input } from "./input/create${capitalName}.input"
+import { Update${capitalName}Input } from "./input/update${capitalName}.input"
 import { ${capitalName}Repository } from "./${name}.repository"
 
 @Service()
