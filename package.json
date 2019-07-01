@@ -19,15 +19,15 @@
     "tslib": "^1"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^1",
-    "@types/inquirer": "^6.0.3",
-    "@types/listr": "^0.14.0",
-    "@types/mkdirp": "^0.5.2",
-    "@types/node": "^10",
-    "@types/pluralize": "^0.0.29",
-    "globby": "^8",
-    "ts-node": "^8",
-    "typescript": "^3.3"
+    "@oclif/dev-cli": "1.22.0",
+    "@types/inquirer": "6.0.3",
+    "@types/listr": "0.14.0",
+    "@types/mkdirp": "0.5.2",
+    "@types/node": "10.14.8",
+    "@types/pluralize": "0.0.29",
+    "globby": "8.0.2",
+    "ts-node": "8.2.0",
+    "typescript": "3.5.1"
   },
   "engines": {
     "node": ">=8.0.0"
