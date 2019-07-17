@@ -1,7 +1,7 @@
 {
   "name": "tails-cli",
   "description": "CLI for generating TypeGraphQL + TypeORM backend code",
-  "version": "0.2.9",
+  "version": "0.2.10",
   "author": "No Quarter",
   "bin": {
     "tails": "./bin/run"
