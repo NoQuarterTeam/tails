@@ -674,27 +674,27 @@
         "signature": "8f7a2387ecc680872d09a6edbca1612d699f77ee5a5129944935c3798a613d04"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts": {
-        "version": "318c798c4503443a26e579d128821b1989bcca98bb99624deb8515612d932c35",
+        "version": "7f325e800dcc2e39b1b7a078ef61710569b9fd72d2ddf3ab67ae736f9f32ccb5",
         "signature": "173fecea48087e34d8f08af424f4180c0e35b3e8f2cebf17ecb94957d249566c"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts": {
-        "version": "11469d7978aaac8d71af58a2c7dd27f17d2d19db0844e6e2d9bcfd7bfb9448ae",
+        "version": "7b63113030f0bb1f9b99f9fa351de3e27c019bedb30fba80fc96f67a6cb363e2",
         "signature": "b56a786ee44d757fc4f28ae0a2a4afa74dee5d45c15c8f589e187a76a7ab7d12"
       },
       "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts": {
         "version": "3cd9f0f410b6a9a1894ebf2e5566eb2d380303934b9bb912d03beb51f600339b",
         "signature": "c45471daf85d9f49315fceafdc7ade8d3bd3a893f98c17a31a2d137f14f593fe"
       },
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts": {
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/createinput.ts": {
         "version": "55e90a22978594e476209f8763eeb31d955b5645881f750d54f6945f76ef5ff8",
         "signature": "50f62f64035ef3d9bd9f61da54427de9a4ebc7a505e4667a6bafde237f002cc5"
       },
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts": {
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/updateinput.ts": {
         "version": "4475e5025715008b52b9f9519a8f5b6872c26586edde2f32ef31d30cbedca250",
         "signature": "347568db07979c5bcafc5d39a85faf096a240d8113d19e106d8a8108b8969f7e"
       },
       "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts": {
-        "version": "dac9ea0870a3f98a88b700cb5d38faa10e17f56ba480db80bf97c276d309affe",
+        "version": "a1b6fe3bf7272e238af2319de43be611907e0ff9125aa495e42bd286e365888d",
         "signature": "fe1e385417262c7278b32285f56a54f9940de2959c7c2abc5048a7e83d9f5458"
       }
     },
@@ -1731,12 +1731,12 @@
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/util.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts": [
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/createinput.ts": [
         "/users/jclackett/documents/apps/tails/tails/node_modules/@noquarter/utils/dist/index.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/util.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts": [
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/updateinput.ts": [
         "/users/jclackett/documents/apps/tails/tails/node_modules/@noquarter/utils/dist/index.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/util.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/ts3.2/util.d.ts"
@@ -1751,8 +1751,8 @@
         "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts",
         "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts",
         "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts",
-        "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts",
-        "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts",
+        "/users/jclackett/documents/apps/tails/tails/src/templates/input/createinput.ts",
+        "/users/jclackett/documents/apps/tails/tails/src/templates/input/updateinput.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/util.d.ts",
         "/users/jclackett/documents/apps/tails/tails/node_modules/@types/node/ts3.2/util.d.ts"
       ]
@@ -2923,11 +2923,11 @@
       "/users/jclackett/documents/apps/tails/tails/src/utils/fileutils.ts",
       "/users/jclackett/documents/apps/tails/tails/node_modules/@types/pluralize/index.d.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/repository.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/createinput.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/inputs/updateinput.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts",
       "/users/jclackett/documents/apps/tails/tails/src/templates/resolver.ts",
-      "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts"
+      "/users/jclackett/documents/apps/tails/tails/src/templates/service.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/createinput.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/templates/input/updateinput.ts",
+      "/users/jclackett/documents/apps/tails/tails/src/commands/scaffold/index.ts"
     ]
   },
   "version": "3.5.1"

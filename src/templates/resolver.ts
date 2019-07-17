@@ -21,24 +21,21 @@ export class ${capitalName}Resolver {
   ) {}
 
   @Query(() => [${capitalName}])
-  async get${pluralCapitalName}(): Promise<${capitalName}[]> {
-    const ${pluralName} = await this.${name}Repository.findAll()
-    return ${pluralName}
+  get${pluralCapitalName}(): Promise<${capitalName}[]> {
+    return this.${name}Repository.findAll()
   }
 
   @Mutation(() => ${capitalName})
-  async create${capitalName}(@Arg("data") data: Create${capitalName}Input): Promise<${capitalName}> {
-    const ${name} = await this.${name}Service.create(data)
-    return ${name}
+  create${capitalName}(@Arg("data") data: Create${capitalName}Input): Promise<${capitalName}> {
+    return this.${name}Service.create(data)
   }
 
   @Mutation(() => ${capitalName})
-  async update${capitalName}(
+  update${capitalName}(
     @Arg("${name}Id") ${name}Id: string,
     @Arg("data") data: Update${capitalName}Input,
   ): Promise<${capitalName}> {
-    const ${name} = await this.${name}Service.update(${name}Id, data)
-    return ${name}
+    return this.${name}Service.update(${name}Id, data)
   }
 
   @Mutation(() => Boolean)
