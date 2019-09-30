@@ -5,20 +5,18 @@ export const ServiceTemplate = (name: string) => {
   return `import { Service } from "typedi"
 
 import { ${capitalName} } from "./${name}.entity"
-import { Create${capitalName}Input } from "./input/create${capitalName}.input"
-import { Update${capitalName}Input } from "./input/update${capitalName}.input"
 import { ${capitalName}Repository } from "./${name}.repository"
 
 @Service()
 export class ${capitalName}Service {
   constructor(private readonly ${name}Repository: ${capitalName}Repository) {}
 
-  async create(data: Create${capitalName}Input): Promise<${capitalName}> {
+  async create(data: Partial<${capitalName}>): Promise<${capitalName}> {
     const ${name} = await ${capitalName}.create(data).save()
     return ${name}
   }
 
-  async update(${name}Id: string, data: Update${capitalName}Input): Promise<${capitalName}> {
+  async update(${name}Id: string, data: Partial<${capitalName}>): Promise<${capitalName}> {
     const ${name} = await this.${name}Repository.findById(${name}Id)
     Object.assign(${name}, data)
     await ${name}.save()

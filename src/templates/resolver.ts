@@ -3,7 +3,6 @@ import pluralize from "pluralize"
 
 export const ResolverTemplate = (name: string) => {
   const capitalName = capitalize(name)
-  const pluralName = pluralize(name)
   const pluralCapitalName = pluralize(capitalName)
   return `import { Resolver, Query, Mutation, Arg } from "type-graphql"
   
