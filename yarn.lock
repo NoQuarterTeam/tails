@@ -37,9 +37,9 @@
     fastq "^1.6.0"
 
 "@noquarter/utils@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@noquarter/utils/-/utils-1.0.5.tgz#6f91f77e857467809a911edd001603195d57e54f"
-  integrity sha512-Gl5SDM2jpHn6ZeKkWDZZfJOXvt6AUqfkfqEZg8rj+LYzrfDodqZxeANiXQEAx8Z2mnqxUsuFVdlLDZVwoNouSg==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@noquarter/utils/-/utils-1.0.8.tgz#78eacfd7c5830028b8af00d48aa29b156e45a8e6"
+  integrity sha512-gzuV+T71+6U6ozI1pP6JJzuFM0TZVSTd9NTQkSeGGzUMD5Jx5J+KOm4FGG4WPmFrNjTpste3shHQC/TFqPqYHw==
 
 "@oclif/command@^1", "@oclif/command@^1.5.1", "@oclif/command@^1.5.13":
   version "1.5.19"
