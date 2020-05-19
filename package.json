@@ -27,7 +27,7 @@
     "@types/pluralize": "0.0.29",
     "globby": "10.0.2",
     "ts-node": "8.10.1",
-    "typescript": "3.9.2"
+    "typescript": "3.9.3"
   },
   "engines": {
     "node": ">=8.0.0"
