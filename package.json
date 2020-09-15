@@ -23,7 +23,7 @@
     "@types/inquirer": "6.5.0",
     "@types/listr": "0.14.2",
     "@types/mkdirp": "0.5.2",
-    "@types/node": "12.12.58",
+    "@types/node": "12.12.59",
     "@types/pluralize": "0.0.29",
     "globby": "10.0.2",
     "ts-node": "8.10.2",
