@@ -107,10 +107,10 @@
     is-wsl "^2.1.1"
     tslib "^2.0.0"
 
-"@oclif/dev-cli@1.24.1":
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.24.1.tgz#e95600ffb3927608232a96295e6277de707c336f"
-  integrity sha512-cJL0o+S6jA1HgO7bpTBTDkUTU5j31B7ngJWnpDGAS2GoA1t00lfQ1K75oFBPBIqEB6HQmhs7guIKQISLzoDyXg==
+"@oclif/dev-cli@1.24.2":
+  version "1.24.2"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.24.2.tgz#414dc5f9241cfb26fb0d835cbae8e9cf7b4092e0"
+  integrity sha512-+nhuTgXguBwGxJOuJysjRjfev8HcfImlzEhi5jufQeJ0H9rofelRC8ogUl7H1B+QNAcesCM50SB0HRuOgEEJLA==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
