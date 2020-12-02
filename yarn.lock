@@ -107,10 +107,10 @@
     is-wsl "^2.1.1"
     tslib "^2.0.0"
 
-"@oclif/dev-cli@1.25.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.25.0.tgz#2c025ea21d4d428ff2584e2eeebcedfd5dfd14ba"
-  integrity sha512-WkYZElEGNBRVsT/XaCXK6YJTMwluLQiSPgPL8H2/p+W0/9T2R0X317fcjONJrIZRJbhO5WZ/p3lgLulQqR4cOw==
+"@oclif/dev-cli@1.25.1":
+  version "1.25.1"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.25.1.tgz#bd62a9739a2dcedee19acaed329dad3bb031a2f7"
+  integrity sha512-q+ywUIRa1SB9A+hIFXlvzWc5oeYgI1sBiFyYrV775lyNC7uVldRCKJ9MVi+YBXZxp7hXeh6r0dC7K2mrOryaJQ==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
@@ -118,6 +118,7 @@
     "@oclif/plugin-help" "^3.2.0"
     cli-ux "^5.2.1"
     debug "^4.1.1"
+    find-yarn-workspace-root "^2.0.0"
     fs-extra "^8.1"
     github-slugger "^1.2.1"
     lodash "^4.17.11"
@@ -963,6 +964,13 @@ find-up@^2.1.0:
   integrity sha1-RdG35QbHF93UgndaK3eSCjwMV6c=
   dependencies:
     locate-path "^2.0.0"
+
+find-yarn-workspace-root@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/find-yarn-workspace-root/-/find-yarn-workspace-root-2.0.0.tgz#f47fb8d239c900eb78179aa81b66673eac88f7bd"
+  integrity sha512-1IMnbjt4KzsQfnhnzNd8wUEgXZ44IzZaZmnLYx7D5FZlaHt2gW20Cri8Q+E/t5tIj4+epTBub+2Zxu/vNILzqQ==
+  dependencies:
+    micromatch "^4.0.2"
 
 for-in@^1.0.2:
   version "1.0.2"
