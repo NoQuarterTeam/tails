@@ -62,7 +62,7 @@
   resolved "https://registry.yarnpkg.com/@noquarter/utils/-/utils-1.0.8.tgz#78eacfd7c5830028b8af00d48aa29b156e45a8e6"
   integrity sha512-gzuV+T71+6U6ozI1pP6JJzuFM0TZVSTd9NTQkSeGGzUMD5Jx5J+KOm4FGG4WPmFrNjTpste3shHQC/TFqPqYHw==
 
-"@oclif/command@^1", "@oclif/command@^1.5.1", "@oclif/command@^1.5.13":
+"@oclif/command@^1.5.1", "@oclif/command@^1.5.13":
   version "1.5.19"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.5.19.tgz#13f472450eb83bd6c6871a164c03eadb5e1a07ed"
   integrity sha512-6+iaCMh/JXJaB2QWikqvGE9//wLEVYYwZd5sud8aLoLKog1Q75naZh2vlGVtg5Mq/NqpqGQvdIjJb3Bm+64AUQ==

@@ -9,7 +9,7 @@
   "bugs": "https://github.com/NoQuarterTeam/tails/issues",
   "dependencies": {
     "@noquarter/utils": "^1.0.5",
-    "@oclif/command": "^1",
+    "@oclif/command": "^1.8.0",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^2",
     "inquirer": "^7.0.0",
