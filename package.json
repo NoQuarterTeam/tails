@@ -20,10 +20,10 @@
   },
   "devDependencies": {
     "@oclif/dev-cli": "1.26.0",
-    "@types/inquirer": "6.5.0",
+    "@types/inquirer": "7.3.2",
     "@types/listr": "0.14.3",
-    "@types/mkdirp": "0.5.2",
-    "@types/node": "12.20.15",
+    "@types/mkdirp": "1.0.1",
+    "@types/node": "14.17.4",
     "@types/pluralize": "0.0.29",
     "globby": "10.0.2",
     "ts-node": "8.10.2",
